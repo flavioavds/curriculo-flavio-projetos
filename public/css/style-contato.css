@@ -1,0 +1,85 @@
+#contato{
+    margin-top: 150px;
+    background: #fff;
+}
+ul{
+    list-style: none;
+}
+.fa-whatsapp{
+    color: green;
+}
+.fa-github-square{
+    color: #24292F;
+}
+
+
+
+
+
+/* PRIMEIRA CONFIGURAÇÃO */
+
+@media (min-width: 0) and (max-width: 339.99px) {
+    
+    #contato{
+        margin-top: 90px;
+    }
+    
+/* Não Excluir */
+ }
+ 
+/* SEGUNDA CONFIGURAÇÃO */
+
+@media (min-width: 340px) and (max-width: 575.98px) { 
+    
+    #contato{
+        margin-top: 90px;
+    }
+       
+
+/* Não Excluir */
+ }
+ 
+/* TERCEIRA CONFIGURAÇÃO */
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   
+    #contato{
+        margin-top: 140px;
+    }
+    
+
+/* Não Excluir */
+ }
+
+ /* QUARTA CONFIGURAÇÃO */
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+    #contato{
+        margin-top: 140px;
+    }
+      
+   
+/* Não Excluir */
+ }
+
+ /* QUINTA CONFIGURAÇÃO */
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+
+ /* Não Excluir */
+ }
+
+ /* SEXTA CONFIGURAÇÃO */
+
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    
+
+ /* Não Excluir */
+}
+@media (min-width:1399.98px) and (max-width: 2599.98px) { 
+    
+
+ /* Não Excluir */
+}

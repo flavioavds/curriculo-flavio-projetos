@@ -1,0 +1,281 @@
+html, body{
+    height: 100%;
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #0027420e;
+}
+header#cabecalho{
+    display: block;
+}
+header#cabecalho .navbar-toggler{
+    border: 1px solid white;
+}
+#curriculo{
+    float: left;
+}
+#foto-curriculo{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: #0d0630;
+    color: #fff;
+}
+#cabecalho{
+    background: #0d0630 url('../img/tecnology3.png') no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+#menu a{
+    color: white;
+}
+#menu .nav-item{
+    padding-left: 15px;
+}
+.divisor{
+    border-right: 1px solid white;
+    margin: 12px 15px;
+}
+#cliente i{
+    color: #a2cffc93;
+}
+
+/*Conteudo*/
+
+#conteudo .container{
+    margin-top: 150px;
+    background: #fff;
+}
+#conteudo .container .alinhamento{
+    display: block;
+    text-align: center;
+    font-size: 13px;
+}
+#conteudo .fa-whatsapp{
+    color: green;
+    font-size: large;
+}
+#conteudo .fa-envelope{
+    color: navy;
+    font-size: large;
+}
+
+#cabecalho a:hover{
+    display:block;
+    color: #ff6542;
+
+}
+#cabecalho .efeito::after {
+    content: " ";
+    display: block;
+    width: 25%;
+    border: 1px solid white;
+    transition: all 0.30s ease;
+}
+#cabecalho .efeito:hover::after {
+    content: " ";
+    display: block;
+    width: 100%;
+    border: 1px solid white;
+    transition: all 0.30s ease;
+}
+
+
+#conteudo a{
+    background-image: url('../img/battery-quarter-solid.png');
+    background-position: left 13px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    color: rgb(11, 8, 65);
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: background-size 1s;
+    
+}
+#conteudo a:hover{
+    background-image: url('../img/battery-full-solid.png');
+    background-position: left 13px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    color: #2f2f2f;
+}
+
+#conteudo .efeito-borda {
+    color: rgb(11, 8, 65);
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.20s linear;
+    display: inline-block;
+    left: 30px;
+    bottom: 10px;
+    
+}
+#conteudo a{
+    font-weight: 600 !important;
+}
+
+#conteudo .efeito-borda::after {
+    content: "";
+    width: 30%;
+    display: block;
+    border: 1px solid rgb(11, 8, 65);
+    transition: all 0.30s ease;
+}
+#conteudo .efeito-borda:hover::after {
+    content: "";
+    width: 100%;
+    display: block;
+    border: 1px solid rgb(11, 8, 65);
+    transition: all 0.30s ease;
+}
+#conteudo .corpo-conteudo{
+    margin-top: 15px;
+}
+footer{
+    background: rgb(11, 8, 65);
+    color: #919496;
+}
+footer#rodape{
+    margin-top: 15px;
+    padding: 20px;
+    text-align: left;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+footer ul{
+    text-decoration: none;
+    list-style: none;
+}
+footer a:hover{
+    color: #ff6542;
+}
+footer .redes-sociais ul{
+    text-decoration: none;
+    list-style: none;
+}
+footer .fa-whatsapp{
+    color: green;
+}
+footer .fa-linkedin{
+    color: #0A66C2;
+}
+footer .fa-github-square{
+    color: #24292F;
+}
+
+
+
+
+
+/* PRIMEIRA CONFIGURAÇÃO */
+
+@media (min-width: 0) and (max-width: 339.99px) {
+    #cabecalho .efeito::after {
+        width: 1%;
+    }
+    #cabecalho .efeito:hover::after {
+        width: 15%;
+    }
+    #conteudo a{
+        background-position: left 37px;
+        background-size: 15px;
+    }
+    #conteudo a:hover{
+        background-position: left 37px;
+        background-size: 15px;
+    }
+    #conteudo .container{
+        margin-top: 150px;
+        background: #fff;
+    }
+
+/* Não Excluir */
+ }
+ 
+/* SEGUNDA CONFIGURAÇÃO */
+
+@media (min-width: 340px) and (max-width: 575.98px) { 
+    #cabecalho .efeito::after {
+        width: 1%;
+    }
+    #cabecalho .efeito:hover::after {
+        width: 15%;
+    }
+    #conteudo a{
+        background-position: left 37px;
+        background-size: 15px;
+    }
+    #conteudo a:hover{
+        background-position: left 37px;
+        background-size: 15px;
+    }
+    #conteudo .container{
+        margin-top: 90px;
+        background: #fff;
+    }
+
+
+/* Não Excluir */
+ }
+ 
+/* TERCEIRA CONFIGURAÇÃO */
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    #cabecalho .efeito::after {
+        width: 3%;
+    }
+    #cabecalho .efeito:hover::after {
+        width: 18%;
+    }
+    #conteudo a{
+        background-position: left 37px;
+        background-size: 15px;
+    }
+    #conteudo a:hover{
+        background-position: left 37px;
+        background-size: 15px;
+    }
+    #conteudo .container{
+        margin-top: 120px;
+        background: #fff;
+    }  
+
+
+/* Não Excluir */
+ }
+
+ /* QUARTA CONFIGURAÇÃO */
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    #cabecalho .efeito::after {
+        width: 4%;
+    }
+    #cabecalho .efeito:hover::after {
+        width: 20%;
+    }
+    #conteudo .container{
+        margin-top: 140px;
+        background: #fff;
+    }
+   
+/* Não Excluir */
+ }
+
+ /* QUINTA CONFIGURAÇÃO */
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+        
+
+ /* Não Excluir */
+ }
+
+ /* SEXTA CONFIGURAÇÃO */
+
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+ /* Não Excluir */
+}

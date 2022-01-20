@@ -1,0 +1,140 @@
+#projetos{
+    margin-top: 150px;
+    background: #fff;
+}
+#projetos a{
+    background-image: url('../img/battery-quarter-solid.png');
+    background-position: left 13px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    color: rgb(11, 8, 65);
+    font-size: 1em;
+    text-decoration: none;
+    transition: background-size 1s;
+    
+}
+#projetos a:hover{
+    background-image: url('../img/battery-full-solid.png');
+    background-position: left 13px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    color: #2f2f2f;
+}
+
+#contprojetos .efeito-borda {
+    color: rgb(11, 8, 65);
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.20s linear;
+    display: inline-block;
+    left: 30px;
+    bottom: 10px;
+    
+}
+#projetos a{
+    font-weight: 50 !important;
+}
+
+#projetos .efeito-borda::after {
+    content: "";
+    width: 5%;
+    display: block;
+    border: 1px solid rgb(11, 8, 65);
+    transition: all 0.30s ease;
+}
+#projetos .efeito-borda:hover::after {
+    content: "";
+    width: 18%;
+    display: block;
+    border: 1px solid rgb(11, 8, 65);
+    transition: all 0.30s ease;
+}
+#projetos .corpo-conteudo{
+    margin-top: 15px;
+}
+
+/* PRIMEIRA CONFIGURAÇÃO */
+
+@media (min-width: 0) and (max-width: 339.99px) {
+    
+    #projetos{
+        margin-top: 90px;
+    }
+    #projetos .efeito-borda:hover::after {
+        width: 100%;
+    }
+
+/* Não Excluir */
+ }
+ 
+/* SEGUNDA CONFIGURAÇÃO */
+
+@media (min-width: 340px) and (max-width: 575.98px) { 
+    
+    #projetos{
+        margin-top: 90px;
+    }
+    #projetos .efeito-borda:hover::after {
+        width: 40%;
+    }
+    
+
+/* Não Excluir */
+ }
+ 
+/* TERCEIRA CONFIGURAÇÃO */
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   
+    #projetos{
+        margin-top: 140px;
+    }
+    #projetos .efeito-borda:hover::after {
+        width: 30%;
+    }  
+
+
+/* Não Excluir */
+ }
+
+ /* QUARTA CONFIGURAÇÃO */
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+    #projetos{
+        margin-top: 140px;
+    }
+    #projetos .efeito-borda:hover::after {
+        width: 20%;
+    }  
+   
+/* Não Excluir */
+ }
+
+ /* QUINTA CONFIGURAÇÃO */
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    #projetos .efeito-borda:hover::after {
+        width:90%;
+    } 
+
+ /* Não Excluir */
+ }
+
+ /* SEXTA CONFIGURAÇÃO */
+
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    #projetos .efeito-borda:hover::after {
+        width:90%;
+    } 
+
+ /* Não Excluir */
+}
+@media (min-width:1399.98px) and (max-width: 2599.98px) { 
+    #projetos .efeito-borda:hover::after {
+        width:90%;
+    } 
+
+ /* Não Excluir */
+}
