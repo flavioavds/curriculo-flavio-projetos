@@ -132,6 +132,14 @@ header#cabecalho .navbar-toggler{
 #conteudo .corpo-conteudo{
     margin-top: 15px;
 }
+section#whatsapp{
+    text-align: right;
+    width: auto;
+}
+section#whatsapp .fa-whatsapp{
+    margin-right: 20px;
+    color: green;
+}
 footer{
     background: rgb(11, 8, 65);
     color: #919496;
