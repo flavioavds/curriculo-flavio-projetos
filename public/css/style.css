@@ -12,6 +12,9 @@ header#cabecalho{
 header#cabecalho .navbar-toggler{
     border: 1px solid white;
 }
+header#cabecalho .nav-item .fa-whatsapp{
+    color: green;
+}
 #curriculo{
     float: left;
 }
@@ -41,7 +44,6 @@ header#cabecalho .navbar-toggler{
 }
 
 /*Conteudo*/
-
 #conteudo .container{
     margin-top: 150px;
     background: #fff;
@@ -65,14 +67,14 @@ header#cabecalho .navbar-toggler{
     color: #ff6542;
 
 }
-#cabecalho .efeito::after {
+#cabecalho .nav .efeito::after {
     content: " ";
     display: block;
     width: 25%;
     border: 1px solid white;
     transition: all 0.30s ease;
 }
-#cabecalho .efeito:hover::after {
+#cabecalho .nav .efeito:hover::after {
     content: " ";
     display: block;
     width: 100%;
@@ -81,7 +83,7 @@ header#cabecalho .navbar-toggler{
 }
 
 
-#conteudo a{
+#conteudo .nav a{
     background-image: url('../img/battery-quarter-solid.png');
     background-position: left 13px;
     background-size: 20px;
@@ -92,7 +94,7 @@ header#cabecalho .navbar-toggler{
     transition: background-size 1s;
     
 }
-#conteudo a:hover{
+#conteudo .nav a:hover{
     background-image: url('../img/battery-full-solid.png');
     background-position: left 13px;
     background-size: 20px;
@@ -100,7 +102,7 @@ header#cabecalho .navbar-toggler{
     color: #2f2f2f;
 }
 
-#conteudo .efeito-borda {
+#conteudo .nav .efeito-borda {
     color: rgb(11, 8, 65);
     font-size: 15px;
     font-weight: bold;
@@ -111,18 +113,18 @@ header#cabecalho .navbar-toggler{
     bottom: 10px;
     
 }
-#conteudo a{
+#conteudo .nav a{
     font-weight: 600 !important;
 }
 
-#conteudo .efeito-borda::after {
+#conteudo .nav .efeito-borda::after {
     content: "";
     width: 30%;
     display: block;
     border: 1px solid rgb(11, 8, 65);
     transition: all 0.30s ease;
 }
-#conteudo .efeito-borda:hover::after {
+#conteudo .nav .efeito-borda:hover::after {
     content: "";
     width: 100%;
     display: block;
@@ -182,17 +184,17 @@ footer .fa-github-square{
 /* PRIMEIRA CONFIGURAÇÃO */
 
 @media (min-width: 0) and (max-width: 339.99px) {
-    #cabecalho .efeito::after {
+    #cabecalho .nav .efeito::after {
         width: 1%;
     }
-    #cabecalho .efeito:hover::after {
+    #cabecalho .nav .efeito:hover::after {
         width: 15%;
     }
-    #conteudo a{
+    #conteudo .nav a{
         background-position: left 37px;
         background-size: 15px;
     }
-    #conteudo a:hover{
+    #conteudo .nav a:hover{
         background-position: left 37px;
         background-size: 15px;
     }
@@ -207,17 +209,17 @@ footer .fa-github-square{
 /* SEGUNDA CONFIGURAÇÃO */
 
 @media (min-width: 340px) and (max-width: 575.98px) { 
-    #cabecalho .efeito::after {
+    #cabecalho .nav .efeito::after {
         width: 1%;
     }
-    #cabecalho .efeito:hover::after {
+    #cabecalho .nav .efeito:hover::after {
         width: 15%;
     }
-    #conteudo a{
+    #conteudo .nav a{
         background-position: left 37px;
         background-size: 15px;
     }
-    #conteudo a:hover{
+    #conteudo .nav a:hover{
         background-position: left 37px;
         background-size: 15px;
     }
@@ -233,17 +235,17 @@ footer .fa-github-square{
 /* TERCEIRA CONFIGURAÇÃO */
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
-    #cabecalho .efeito::after {
+    #cabecalho .nav .efeito::after {
         width: 3%;
     }
-    #cabecalho .efeito:hover::after {
+    #cabecalho .nav .efeito:hover::after {
         width: 18%;
     }
-    #conteudo a{
+    #conteudo .nav a{
         background-position: left 37px;
         background-size: 15px;
     }
-    #conteudo a:hover{
+    #conteudo .nav a:hover{
         background-position: left 37px;
         background-size: 15px;
     }
@@ -259,10 +261,10 @@ footer .fa-github-square{
  /* QUARTA CONFIGURAÇÃO */
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
-    #cabecalho .efeito::after {
+    #cabecalho .nav .efeito::after {
         width: 4%;
     }
-    #cabecalho .efeito:hover::after {
+    #cabecalho .nav .efeito:hover::after {
         width: 20%;
     }
     #conteudo .container{
